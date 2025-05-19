@@ -13,7 +13,7 @@ public class Methods {
 
     public static void main(String[] args) {
 // Call our method in the main class
-        welcome("Brian");
+        welcome("Brian"); //values passed on params are arguments
         welcome("Lewis");
     }
 }
