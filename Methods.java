@@ -5,13 +5,15 @@ public class Methods {
         Static - needed to be able to use the method in main.
         void - means the method doesn't return a value
          */
-    static void welcome() {
-        System.out.println("Hello World");
+    //Methods can have parameters - they are methods variables.
+    static void welcome(String name) {
+        System.out.println("Hello " + name);
     }
 
 
     public static void main(String[] args) {
 // Call our method in the main class
-        welcome();
+        welcome("Brian");
+        welcome("Lewis");
     }
 }
