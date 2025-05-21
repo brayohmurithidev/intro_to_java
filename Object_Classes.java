@@ -6,6 +6,7 @@
 - protected are accessed in only the package classes and the subclasses
 - private are only accessed within the class they are declared
 - We use Getters and Setters to update or read from private attributes and methods.
+- this keyword is used to refer to the current object.
  */
 
 public class Object_Classes {
@@ -25,4 +26,5 @@ public class Object_Classes {
             System.out.println("French");
         }
     }
+
 }
